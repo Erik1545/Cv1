@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Cv1 {
+public class Cv1 extends Greating{
 
 	public static void main(String[] args) {
 		SpringApplication.run(Cv1.class, args);
