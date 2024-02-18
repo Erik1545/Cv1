@@ -1,0 +1,15 @@
+package com.example.cviceni1.controllers;
+
+import com.example.cviceni1.services.Greeting;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class InstanceController {
+    @Autowired
+    private Greeting greeting;
+
+    public String sayHello() {
+        return greeting.sayGreeting();
+    }
+}
